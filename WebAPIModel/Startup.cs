@@ -24,6 +24,7 @@ namespace WebAPIModel
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+           // services.AddDbContext<Data>(options => options.UseSqlite("DataSource=data.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
